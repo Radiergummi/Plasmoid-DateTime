@@ -23,7 +23,7 @@ Item
     PlasmaComponents.Label
     {
         id:                 date_label
-        text:               Qt.formatDateTime( time_src.data.Local.DateTime, "ddd MMM dd h:mm AP" )
+        text:               Qt.formatDateTime( time_src.data.Local.DateTime, "dd.MM.yyyy HH:mm" )
         anchors.centerIn:   parent
     }
 }
